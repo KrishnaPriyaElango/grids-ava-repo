@@ -1,0 +1,48 @@
+.app {
+  text-align: center;
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  color: white;
+  padding: 40px;
+}
+.container {
+  background-color: #282c34;
+  background-image: linear-gradient(147deg, #282c34 0%, #2c3e50 74%);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-row {
+  display: flex;
+}
+
+.controls-view {
+  padding-bottom: 20px;
+}
+
+.cell {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.pointer{
+  cursor:pointer;
+}
+
+input{
+  margin-right: 20px;
+}
